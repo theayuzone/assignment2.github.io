@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 class="head">Integral University</h2>
+    <div class="centre">
+    <img class="logo shadow" src="logo.png" alt="logo" >
+    </div>
+    <h1 class="text">| Registration Form |</h1>
+    <div class="btn">
+        <br>
+    
+        <h3 class="detail">Enter Yours Details</h3>
+        <div class="text">
+        <form id="form" onsubmit="validate()">
+        <table align="center" cellpadding="20" border="2">
+            <tr>
+                <td>NAME :</td>
+                <td>
+                    <input type="text" id="nam" name="Name" class="input" maxlength="30"/>
+                </td>
+            </tr>
+    
+                <tr>
+                    <td>AGE :</td>
+                    <td>
+                        <input type="age" id="age" name="Age" class="input" maxlength="2"/>
+                    </td>
+                </tr>
+    
+                    <tr>
+                        <td>ADDRESS : <br /><br /><br /></td>
+                        <td><textarea name="Address" id="add" class="input" rows="4" cols="30"></textarea>
+                        </td>
+                    </tr>
+    
+    
+                    <tr>
+                        <td>FAV. SUBJECT :</td>
+                        <td>
+                            <input type="text" name="Subject" id="sub" class="input" cmaxlength="10"/>
+                        </td>
+                    </tr>
+    
+    
+                    <tr>
+                        <td>FAV. MOVIES :</td>
+                        <td>
+                            <input type="text" name="Movies" id="mov" class="input" maxlength="10"/>
+                        </td>
+                    </tr>
+    
+    
+                    <tr>
+                        <td>FAV. SINGER :</td>
+                        <td>
+                            <input type="text" name="Singer" id="sin" class="input" maxlength="10"/>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>PASSWORD :</td>
+                        <td>
+                            <input type="password" id="passwd" name="password" class="input" maxlength="10"/>
+                        </td>
+                    </tr>
+
+                     <tr>
+                        <td>GENDER :</td>
+                            <td>
+                            Male <input type="radio" name="Gender" value="Male" />
+                            Female <input type="radio" name="Gender" value="Female" />
+                            </td>
+                     </tr> 
+
+                     <tr>
+                        <td>
+                        <label class="">I AGREE TO </b></label>
+                        </td>
+                        <td>
+                            <label class="">Terms & Conditions</label>
+                            <input type="checkbox" name="AGREE" value="Terms & Conditions" >
+                        </td>    
+                     </tr>
+
+                     <tr>
+                        <td colspan="2">
+                            <input type="submit" value="submit" class="button">
+                        </td>
+                     </tr>
+                    
+        </table>
+    </form> 
+    </div>
+</body>
+<script src="index.js"></script>
+<script type="text/javascript">
+    alert("Kindly fill the empty form");
+  </script>
+</html>

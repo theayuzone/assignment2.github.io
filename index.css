@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+body{
+    background-color: #2b1be0;
+}
+.head{
+    text-align: center;
+    margin-top: 11.3px;
+    font-family:'Julius Sans One', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+}
+
+.text{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.fold{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 10% ;
+    width: 10% ;
+    margin-top: 5px;
+}
+
+.shadow{
+    box-shadow: 5px 10px 50px 5px black;
+
+}
+
+.footer{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.centre {
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.button{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 6px 19px;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.paragraph{
+    
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    margin: 0 60px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.input{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.a {
+    color: #FF9494;
+  }
+  
+  .b {
+    color: #850E35;
+  }
+  
+  .c {
+    color: #112D4E;
+  }
+  
+  .d {
+    color: #3F72AF;
+  }
+  
+  .e {
+    color: #1FAB89;
+  }
+  
+  .f {
+    color: #62D2A2;
+  }

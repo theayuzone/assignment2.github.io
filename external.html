@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enternal CSS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2 class="head">Integral University</h2>
+    <div class="centre">
+        <img class="logo shadow" src="logo.png" alt="logo">
+    </div>
+    <h1 class="text" style="text-decoration: underline;">External CSS</h1>
+    <div class="btn">
+        <div>
+            <input type="button" value="Bold" onclick="foil()" class="button">
+            <input type="button" value="Italic" onclick="koil()" class="button">
+            <input type="button" value="Underline" onclick="noil()" class="button">
+        </div>
+    </div>
+
+    <br><br>
+
+    <p class="paragraph Bold Italic Underline">
+        To apply a rule to multiple pages, an external style sheet is used. An external style sheet is a separate CSS
+        file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use
+        the same link to access the stylesheet. <br>
+
+        The link to an external style sheet is placed within the head section of the page. <br>
+
+        In this case, the background color of the webpage will be ghostwhite and any h1 headings will appear in verdana
+        font, as size twenty blue text in italic style. <br>
+
+        External style sheets have the following advantages over internal and inline styles: <br>
+
+        one change to the style sheet will change all linked pages
+        you can create classes of styles that can then be used on many different HTML elements
+        consistent look and feel across multiple web pages
+        improved load times because the css file is downloaded once and applied to each relevant page as needed
+    </p>
+    
+</body>
+<script src="index.js"></script>
+<script type="text/javascript">
+    alert("Welcome To the Website");
+</script>
+
+</html>
